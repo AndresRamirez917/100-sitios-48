@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#mainheader .navbar {
+  background: rgb(1, 1, 105);
+}
+
+#showcase {
+  background: rgb(1, 1, 105);
+  border-bottom-left-radius: 50% 35%;
+  border-bottom-right-radius: 50% 35%;
+}
+#showcase img {
+  display: block;
+  margin: 0 auto;
+}
+#showcase .showcase-content {
+  text-align: center;
+}
+
+#features .features-row {
+  display: flex;
+  gap: 20px;
+}
+#features .features-row .box h3 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+#features .features-row .box h2 {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
